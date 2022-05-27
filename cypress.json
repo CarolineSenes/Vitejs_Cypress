@@ -1,0 +1,23 @@
+{
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "video": false,
+  "numTestsKeptInMemory": 24,
+  "ignoreTestFiles": ["**/__snapshots__/*", "**/__image_snapshots__/*"],
+  "supportFile": "cypress/support/index.ts",
+  "pluginFile": "cypress/plugins/index.ts",
+  "componentFolder": "src",
+  "testFiles": "**/*{.test.ts,.test.tsx}",
+  "env": {
+    "cypress-plugin-snapshots": {
+      "autopassNewSnapshots": true,
+      "ignoreExtraArrayItems": false,
+      "ignoreExtraFields": false,
+      "normalizeJson": true,
+      "prettier": true
+    }
+  },
+  "retries": {
+    "runMode": 4
+  }
+}

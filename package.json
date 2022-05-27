@@ -1,0 +1,26 @@
+{
+  "name": "vitetest-ts",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@cypress/react": "^5.12.5",
+    "@cypress/vite-dev-server": "^2.2.3",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@vitejs/plugin-react": "^1.3.2",
+    "cypress": "^9.7.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  }
+}
